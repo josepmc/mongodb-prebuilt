@@ -1,4 +1,4 @@
-import { MongoDBDownload } from 'mongodb-download';
+import { MongoDBDownload } from '@easymetrics/mongodb-download';
 export declare class MongoDBPrebuilt {
     mongoDBDownload: MongoDBDownload;
     private debug;

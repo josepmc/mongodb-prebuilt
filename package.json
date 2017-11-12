@@ -5,6 +5,7 @@
   "main": "built/mongodb-prebuilt-all",
   "types": "built/mongodb-prebuilt-all.d.ts",
   "scripts": {
+    "build": "tsc -p tsconfig.json",
     "cache-clean": "rm -rf dist *.txt"
   },
   "bin": {
@@ -52,8 +53,9 @@
   },
   "devDependencies": {
     "@types/node": "^6.0.58",
+    "chai": "^3.5.0",
     "mocha": "^3.2.0",
-    "chai": "^3.5.0"
+    "typescript": "^2.6.1"
   },
   "homepage": "https://github.com/winfinit/mongodb-prebuilt#readme"
 }
